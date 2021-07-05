@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, a, span{
+    font-family: 'Roboto', sans-serif;
+}
+.half-width{
+    width: 50%;
+}
+#orng-clr{
+    color: orange;
+}
+/* 1st-section */
+.first-section{
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    height: 550px;
+}
+.first-text{
+    padding-right: 2em;
+}
+.first-text h1{
+    margin-bottom: .4rem;
+    font-size: 3rem;
+    color: rgba(95, 88, 88, 0.959);
+}
+
+
+.first-txt p{
+    margin-top: 2rem;
+    font-size: 18px;
+   
+   color: #9c9696;
+}
+.btn-div{
+    margin-top: 3rem;
+}
+.btn-div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: linear-gradient(rgb(240, 190, 53), rgb(255, 123, 0));
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+.first-img{
+    margin-bottom: 3rem;
+}
+.first-img img{
+    height: 500px;
+    
+}
+/* 2nd-secton */
+.bgc{
+    background-image: url(./images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.sec-img img{
+    height: 500px;
+    margin-left: 3rem;
+}
+.sec-text{
+    margin-bottom: 2rem;
+    
+}
+.sec-txt{
+    padding-right: 11rem;
+}
+.sec-txt h2{
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    color: #606060;
+    margin-bottom: 2rem;
+}
+.sec-txt p{
+    margin-bottom: 5rem;
+    font-size: 20px;
+    color: #776767;
+    
+}
+/* 3rd-section */
+.my-recipe-section{
+    
+}
+.my-rec-up{
+    text-align: center;
+    padding: 3rem 25rem;
+   
+}
+.my-rec-up h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #665b5b;
+}
+
+.my-rec-up p{
+    color: #858080;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
