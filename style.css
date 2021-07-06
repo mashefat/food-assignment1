@@ -11,6 +11,67 @@ h1, h2, h3, h4, h5, h6, p, a, span{
 #orng-clr{
     color: orange;
 }
+/* Header-section */
+.header-section{
+    background-image: linear-gradient(rgb(39, 56, 50), rgb(39, 54, 38));
+    padding: 1rem 0;
+    border-bottom: 5px solid orange ;
+}
+.header-sec{
+    display: flex;
+    
+}
+.header-logo{
+    width: 30%;
+    text-align: left;
+}
+.header-logo h2{
+    color: #aca2a2;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+.header-menu{
+    width: 60%;
+    text-align: right;
+    margin-top: 15px;
+    
+}
+.header-menu ul{
+
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+/* Banner-section */
+.banner-sec{
+    background-image: url(./images/food/download2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+   
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h2{
+    font-size: 3rem;
+    color: rgba(39, 39, 37, 0.842);
+    
+}
+.banner-text p{
+    color: #665b5b;
+    font-weight: 800;
+}
+
+
+
 /* 1st-section */
 .first-section{
     display: flex;
@@ -86,7 +147,7 @@ h1, h2, h3, h4, h5, h6, p, a, span{
 }
 /* 3rd-section */
 .my-recipe-section{
-    
+    padding-bottom: 2rem;
 }
 .my-rec-up{
     text-align: center;
@@ -104,7 +165,84 @@ h1, h2, h3, h4, h5, h6, p, a, span{
     font-size: 18px;
     
 }
+/* Card section */
+.card-section{
+    display: flex;
+    margin: 0 5rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.card-sec{ 
+    padding: 1.3rem;
+    box-shadow: 10px 10px 20px rgb(211, 211, 211);
+    border-radius: 20px;
+    margin-right: 4rem;
+    width: 300px;
+    
+}
+.card-img{}
+.card-img img{
+    height: 190px;
+    width: 300px;
+    margin-bottom: 2rem;
+}
+.card-text{}
+.card-text h2{
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.card-text p{
+    color: #606060;
+    text-align: left;
+}
+/* Count-section */
+.count-section{
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+}
+.count-sec{
+    display: flex;
+    box-shadow: 10px 15px 30px #776767;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    margin: 0 15rem;
+}
+.count{
+    width: 25%;
+}
+.count h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 17px;
 
+}
+.count p{
+    color: #606060;
+}
+/* Footer-section */
+.footer-section{
+    background-image: linear-gradient( rgb(73, 68, 68), rgb(29, 27, 27));
+    padding: 2rem;
+}
+.footer{
+    text-align: center;
+}
+
+.footer h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #948686;
+}
+.footer p{
+    color: #a3b7bb;
+}
 
 
 
