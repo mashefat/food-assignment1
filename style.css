@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6, p, a, span{
 #orng-clr{
     color: orange;
 }
+
 /* Header-section */
 .header-section{
     background-image: linear-gradient(rgb(39, 56, 50), rgb(39, 54, 38));
@@ -63,11 +64,15 @@ h1, h2, h3, h4, h5, h6, p, a, span{
 .banner-text h2{
     font-size: 3rem;
     color: rgba(39, 39, 37, 0.842);
+    margin-left: 5rem;
     
 }
 .banner-text p{
-    color: #665b5b;
+    color: #5f5a5a;
+    font-size: 20px;
     font-weight: 800;
+    margin-top: 20px;
+    margin-right: -25rem;
 }
 
 
